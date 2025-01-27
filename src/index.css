@@ -1,1 +1,80 @@
 @import "tailwindcss";
+
+@font-face {
+	font-family: "Bender";
+	src: url("./assets/fonts/JovannyLemonad-Bender-Bold.otf");
+}
+
+@font-face {
+	font-family: "space-grotesk";
+	src: url("./assets/fonts/SpaceGrotesk-Regular.ttf");
+}
+
+@font-face {
+	font-family: "space-grotesk-medium";
+	src: url("./assets/fonts/SpaceGrotesk-Medium.ttf");
+}
+
+@font-face {
+	font-family: "space-grotesk-semibold";
+	src: url("./assets/fonts/SpaceGrotesk-SemiBold.ttf");
+}
+
+@theme {
+	/* ------------------- FONTS VARIABLES ------------------- */
+	--font-bender: Bender, sans-serif;
+	--font-body-regular: space-grotesk, sans-serif;
+	--font-body-medium: space-grotesk-medium, sans-serif;
+	--font-body-semibold: space-grotesk-semibold, sans-serif;
+
+	/* ------------------- COLORS VARIABLES ------------------- */
+	/* PRIMARY */
+	--color-primary-100: oklch(51.41% 0.189 305.53);
+	--color-primary-200: oklch(39.67% 0.189 300.32);
+	--color-primary-300: oklch(25.34% 0.098 295.8);
+
+	/* GREY */
+	--color-grey-100: oklch(100% 0 0);
+	--color-grey-200: oklch(79.21% 0 0);
+	--color-grey-300: oklch(70.9% 0 0);
+	--color-grey-400: oklch(70.9% 0 0);
+
+	/* STATE */
+	--color-state-error: oklch(54.12% 0.207 27.82);
+	--color-state-success: oklch(66.72% 0.19 136.54);
+	--color-state-warning: oklch(80.56% 0.159 96.19);
+}
+
+@layer base {
+	:root {
+		--linear: 319deg, #470587 -16.26%, #1e0834 43.96%;
+	}
+
+	h1 {
+		@apply text-2xl font-bender;
+	}
+
+	h2 {
+		@apply text-lg font-bender;
+	}
+
+	.body {
+		@apply text-sm font-body-regular;
+	}
+
+	.body-medium {
+		@apply text-sm font-body-medium;
+	}
+
+	.body-semibold {
+		@apply text-sm font-body-semibold;
+	}
+
+	.caption {
+		@apply text-xs font-body-medium;
+	}
+
+	.bg-linear {
+		@apply bg-linear-(--linear);
+	}
+}
