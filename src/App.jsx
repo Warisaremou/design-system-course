@@ -1,15 +1,9 @@
-
-import './App.css'
-import Imane from './textarea'
-
 function App() {
-  
-
-  return (
-    <>
-     <Imane />
-    </>
-  )
+	return (
+		<div>
+			<h1 className="text-red-500">Hello World</h1>
+		</div>
+	);
 }
 
-export default App
+export default App;
