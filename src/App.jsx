@@ -81,7 +81,7 @@ function App() {
 			</div>
 			<div>
 				<h1>Textarea</h1>
-				<div className="space-y-5">
+				<div className="flex flex-col gap-5">
 					<Textarea placeholder="Textarea" borderColor="border-gray-300" />
 					<Textarea placeholder="Textarea" borderColor="border-black" />
 					<Textarea placeholder="Textarea" borderColor="border-purple-500" />
@@ -91,12 +91,15 @@ function App() {
 					<Textarea placeholder="Textarea" borderColor="border-green-700" />
 				</div>
 			</div>
-			<div className="flex flex-col w-32 gap-2 ">
-				<Button variant="primary"> Connexion</Button>
-				<Button variant="secondary"> Connexion</Button>
-				<Button variant="success"> Success</Button>
-				<Button variant="danger">Warning</Button>
-				<Button variant="outline">Input</Button>
+			<div>
+				<h1>Buttons</h1>
+				<div className="flex flex-col gap-5 [&>button]:w-fit">
+					<Button variant="primary">Connexion</Button>
+					<Button variant="secondary">Connexion</Button>
+					<Button variant="success">Success</Button>
+					<Button variant="danger">Warning</Button>
+					<Button variant="outline">Input</Button>
+				</div>
 			</div>
 		</div>
 	);
