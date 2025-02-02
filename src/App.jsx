@@ -82,7 +82,7 @@ function App() {
 				<h1>Textarea</h1>
 				<div className="space-y-5">
 					<Textarea borderColor="border-grey-100" />
-					<Textarea borderColor="border-black" />
+					<Textarea borderColor="border-grey-400" />
 					<Textarea placeholder="Message..." borderColor="border-primary-200" />
 					<Textarea placeholder="Message..." borderColor="border-state-error" />
 					<Textarea placeholder="Message..." borderColor="border-state-success" />
