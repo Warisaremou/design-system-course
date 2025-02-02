@@ -81,8 +81,8 @@ function App() {
 			</div>
 			<div>
 				<h1>Textarea</h1>
-				<div className="space-y-5">
-					<Textarea borderColor="border-grey-100" />
+				<div className="flex flex-col gap-5">
+					<Textarea borderColor="border-grey-200" />
 					<Textarea borderColor="border-grey-400" />
 					<Textarea placeholder="Message..." borderColor="border-primary-200" />
 					<Textarea placeholder="Message..." borderColor="border-state-error" />
