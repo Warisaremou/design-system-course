@@ -1,5 +1,4 @@
 import Textarea from "./components/Ui/textarea";
-
 import Button from "./components/Ui/Button";
 
 function App() {
@@ -91,6 +90,13 @@ function App() {
 					<Textarea placeholder="Textarea" borderColor="border-green-500" />
 					<Textarea placeholder="Textarea" borderColor="border-green-700" />
 				</div>
+			</div>
+			<div className="flex flex-col w-32 gap-2 ">
+				<Button variant="primary"> Connexion</Button>
+				<Button variant="secondary"> Connexion</Button>
+				<Button variant="success"> Success</Button>
+				<Button variant="danger">Warning</Button>
+				<Button variant="outline">Input</Button>
 			</div>
 		</div>
 	);
