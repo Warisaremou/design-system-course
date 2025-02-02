@@ -1,5 +1,5 @@
 const Button = ({ variant, onClick, children }) => {
-	let buttonStyle = "px-6 py-2 rounded-md font-medium transition duration-300 ease-in-out";
+	let buttonStyle = "px-6 py-2 rounded-md body-medium transition duration-300 ease-in-out";
 
 	switch (variant) {
 		case "primary":
