@@ -37,7 +37,7 @@
 	--color-grey-100: oklch(100% 0 0);
 	--color-grey-200: oklch(79.21% 0 0);
 	--color-grey-300: oklch(70.9% 0 0);
-	--color-grey-400: oklch(70.9% 0 0);
+	--color-grey-400: oklch(30.52% 0 0);
 
 	/* STATE */
 	--color-state-error: oklch(54.12% 0.207 27.82);
@@ -76,5 +76,13 @@
 
 	.bg-linear {
 		@apply bg-linear-(--linear);
+	}
+
+	* {
+		@apply m-0 box-border p-0;
+	}
+
+	body {
+		@apply min-h-screen bg-grey-100;
 	}
 }
