@@ -1,5 +1,7 @@
 import Textarea from "./components/Ui/textarea";
 
+import Button from "./components/Ui/Button";
+
 function App() {
 	return (
 		<div className="grid grid-cols-3 p-5 gap-5 [&>div]:space-y-5">
