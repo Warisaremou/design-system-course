@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 export default function Textarea({ borderColor = "border-grey-100", ...props }) {
   return (
-    <div className={`border p-2 w-96 h-48 ${borderColor}`}>
+    <div className={`border p-2 size_full ${borderColor}`}>
       <label className="text-grey-400 body-medium">
         Text area label
       </label>
