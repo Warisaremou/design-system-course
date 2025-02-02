@@ -18,23 +18,23 @@ function App() {
 				<div className="flex flex-col gap-3">
 					<h1>COLORS</h1>
 					<div>
-						<h2>Gradient</h2>
-						<div className="size-24 bg-linear" />
+						<p className="caption">gradient</p>
+						<div className="size-20 bg-linear" />
 					</div>
 					<div>
 						<h2>Primary</h2>
 						<div className="flex gap-1">
 							<div>
-								<p className="body-medium">primary-100</p>
-								<div className="size-24 bg-primary-100" />
+								<p className="caption">primary-100</p>
+								<div className="size-20 bg-primary-100" />
 							</div>
 							<div>
-								<p className="body-medium">primary-200</p>
-								<div className="size-24 bg-primary-200" />
+								<p className="caption">primary-200</p>
+								<div className="size-20 bg-primary-200" />
 							</div>
 							<div>
-								<p className="body-medium">primary-300</p>
-								<div className="size-24 bg-primary-300" />
+								<p className="caption">primary-300</p>
+								<div className="size-20 bg-primary-300" />
 							</div>
 						</div>
 					</div>
@@ -42,20 +42,20 @@ function App() {
 						<h2>Grey</h2>
 						<div className="flex gap-1">
 							<div>
-								<p className="body-medium">grey-100</p>
-								<div className="size-24 bg-grey-100" />
+								<p className="caption">grey-100</p>
+								<div className="size-20 bg-grey-100" />
 							</div>
 							<div>
-								<p className="body-medium">grey-200</p>
-								<div className="size-24 bg-grey-200" />
+								<p className="caption">grey-200</p>
+								<div className="size-20 bg-grey-200" />
 							</div>
 							<div>
-								<p className="body-medium">grey-300</p>
-								<div className="size-24 bg-grey-300" />
+								<p className="caption">grey-300</p>
+								<div className="size-20 bg-grey-300" />
 							</div>
 							<div>
-								<p className="body-medium">grey-400</p>
-								<div className="size-24 bg-grey-400" />
+								<p className="caption">grey-400</p>
+								<div className="size-20 bg-grey-400" />
 							</div>
 						</div>
 					</div>
@@ -63,16 +63,16 @@ function App() {
 						<h2>State</h2>
 						<div className="flex gap-1">
 							<div>
-								<p className="body-medium">state-error</p>
-								<div className="size-24 bg-state-error" />
+								<p className="caption">state-error</p>
+								<div className="size-20 bg-state-error" />
 							</div>
 							<div>
-								<p className="body-medium">state-success</p>
-								<div className="size-24 bg-state-success" />
+								<p className="caption">state-success</p>
+								<div className="size-20 bg-state-success" />
 							</div>
 							<div>
-								<p className="body-medium">state-warning</p>
-								<div className="size-24 bg-state-warning" />
+								<p className="caption">state-warning</p>
+								<div className="size-20 bg-state-warning" />
 							</div>
 						</div>
 					</div>
