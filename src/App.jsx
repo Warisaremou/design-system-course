@@ -1,4 +1,4 @@
-import {Textarea} from './components/Ui/textarea';
+import Textarea from "./components/Ui/textarea";
 
 function App() {
 	return (
@@ -17,7 +17,15 @@ function App() {
 				</div>
 				<div className="size-36 bg-linear" />
 			</div>
-			<Textarea />
+			<div className="p-5 m-2 border w-fit space-y-5 rounded-md border-gray-200">
+				<Textarea placeholder="Textarea" borderColor="border-gray-300" />
+				<Textarea placeholder="Textarea" borderColor="border-black" />
+				<Textarea placeholder="Textarea" borderColor="border-purple-500" />
+				<Textarea placeholder="Textarea" borderColor="border-purple-700" />
+				<Textarea placeholder="Textarea" borderColor="border-red-500" />
+				<Textarea placeholder="Textarea" borderColor="border-green-500" />
+				<Textarea placeholder="Textarea" borderColor="border-green-700" />
+			</div>
 		</div>
 	);
 }
