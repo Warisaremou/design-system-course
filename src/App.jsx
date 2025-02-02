@@ -1,3 +1,5 @@
+import Button from "./components/Ui/Button";
+
 function App() {
 	return (
 		<div>
@@ -14,6 +16,14 @@ function App() {
 					</div>
 				</div>
 				<div className="size-36 bg-linear" />
+				
+			</div>
+			<div className="flex flex-col w-32 gap-2 ">
+				<Button variant="primary"> Connexion</Button>
+				<Button variant="secondary"> Connexion</Button>
+				<Button variant="success"> Success</Button>
+				<Button variant="danger">Warning</Button>
+				<Button variant="outline">Input</Button>
 			</div>
 		</div>
 	);
