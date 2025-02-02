@@ -81,14 +81,12 @@ function App() {
 			</div>
 			<div>
 				<h1>Textarea</h1>
-				<div className="flex flex-col gap-5">
-					<Textarea placeholder="Textarea" borderColor="border-gray-300" />
-					<Textarea placeholder="Textarea" borderColor="border-black" />
-					<Textarea placeholder="Textarea" borderColor="border-purple-500" />
-					<Textarea placeholder="Textarea" borderColor="border-purple-700" />
-					<Textarea placeholder="Textarea" borderColor="border-red-500" />
-					<Textarea placeholder="Textarea" borderColor="border-green-500" />
-					<Textarea placeholder="Textarea" borderColor="border-green-700" />
+				<div className="space-y-5">
+					<Textarea borderColor="border-grey-100" />
+					<Textarea borderColor="border-grey-400" />
+					<Textarea placeholder="Message..." borderColor="border-primary-200" />
+					<Textarea placeholder="Message..." borderColor="border-state-error" />
+					<Textarea placeholder="Message..." borderColor="border-state-success" />
 				</div>
 			</div>
 			<div>
